@@ -35,7 +35,7 @@ MovieZone\
 
 ```bash
 git clone https://github.com/sparknet-innovations/movie-web-app.git
-cd ovie-web-app
+cd movie-web-app
 ```
 
 2. **Install dependencies:**
