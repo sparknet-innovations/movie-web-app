@@ -34,8 +34,8 @@ MovieZone\
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/your-username/moviezone.git
-cd moviezone
+git clone https://github.com/sparknet-innovations/movie-web-app.git
+cd ovie-web-app
 ```
 
 2. **Install dependencies:**
