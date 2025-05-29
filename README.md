@@ -1,6 +1,6 @@
 # 🎬 MovieZone – A Responsive Movie Web App
 
-Welcome to **MovieZone**, a responsive and visually appealing web app built with React (without JSX). It showcases different movie categories like Bollywood, Hollywood, South Indian, and Animated films with hardcoded data. Ideal for beginner-level projects or personal portfolios.
+Welcome to **MovieZone**, a responsive and visually appealing web app built with React. It showcases different movie categories like Bollywood, Hollywood, South Indian, and Animated films with hardcoded data. Ideal for beginner-level projects or personal portfolios.
 
 ---
 
