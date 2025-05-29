@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+.home-page {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+}
+
+/* HERO SECTION */
+.hero-section {
+  height: 90vh;
+  background: url('https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-text-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 90%;
+}
+
+.hero-text-container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-text-container p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* CATEGORIES SECTION */
+.categories-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.categories-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.category-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.category-card {
+  width: 220px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+.category-card.bollywood {
+  background: linear-gradient(135deg, #f83600, #f9d423);
+}
+
+.category-card.hollywood {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.category-card.south {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
+}
+
+.category-card.animated {
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero-text-container h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text-container p {
+    font-size: 1rem;
+  }
+
+  .category-card {
+    width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
